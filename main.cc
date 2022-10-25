@@ -450,7 +450,7 @@ void Introduction() {
 	cout << "You: Okay, thank you. Though, about Kerney, what is his backstory?\n\n";
 	cout << "Craftsman: He was not always on the dark side, he was the kings right hand man. He knows everything about the kingdom and how it operates.\n\n";
 	cout << "You: Do you know what he has been planning for his attacks?\n\n";
-	cout << "Craftsman: All I know is that he has traps placed around the kingdomin in the form of riddles and puzzles. And he is after the prince, the king's son, Stallman.\n";
+	cout << "Craftsman: All I know is that he has traps placed around the kingdom in the form of riddles and puzzles. And he is after the prince, the king's son, Stallman.\n";
 	cout << "           Now go and explore the kingdom and gather resources and clues to stop Kerney.\n";
 	cout << "           You can find me in the castle. I'm Mencarelli, by the way.\n";
 
@@ -659,7 +659,7 @@ void Puzzle_Two() {
 void Puzzle_Three() {
 	Utility_Text_Settings();
 
-	string userInput, puzzleAnswer = "r";
+	string userInput, puzzleAnswer = "b";
 	int userHealth = 100, kerneyHealth = 100;
 
 	cout << BOLDWHITE << "Walking underneath the bridge, you find an alcove. Coming closer, you notice there's an old door.\n";
@@ -788,7 +788,7 @@ void Puzzle_Three() {
 				cout << "Stallman: Kerney! What are you dong here? How did you get inside the castle?\n\n";
 				cout << "Kerney: Oh I guess you have forgotten that I was once part of this royalty and know my way around.\n\n";
 				cout << "You: I won't let you get to Stallman.\n\n";
-				cout << "Kerney: Hahahaha, you are just a week little warrior.\n\n";
+				cout << "Kerney: Hahahaha, you are just a weak little warrior.\n\n";
 
 				cout << BOLDWHITE << "\nA battle ensues, leading with you being bested by Kerney and Stallman being kidnapped.\n\n\n" << RESET;
 
